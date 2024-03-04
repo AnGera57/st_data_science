@@ -59,4 +59,6 @@ def game_core_v3(number: int = 1) -> int:
 
 # Проверяем работу алгоритма
 print('Run benchmarking for game_core_v3: ', end='')
-score_game(game_core_v3)
+# RUN
+if __name__ == '__main__':
+    score_game(game_core_v3)
